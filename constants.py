@@ -28,7 +28,14 @@ HEIGHT = 50
 
 HERTZ = 50
 
-CASC_EYE = "../haarcascades/haarcascade_eye.xml"
+# File path to the haar cascade file.
+CASCADE_FILE = 'haarcascades/haarcascade_frontalface_default.xml'
 
-CASC_FACE = "haarcascades/haarcascade_frontalface_default.xml"
+# Offsets are used to allow some leeway when determining if the face is centered
+# in the frame or not. 
+OFFSET_PAN = 100
+OFFSET_TILT = 100
+TILT_ADJ = 10
+PAN_ADJ = 10
+SERVO_RANGE = (0, 250)
         
