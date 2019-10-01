@@ -24,8 +24,6 @@ class ServoBlaster(object):
 		else:
 			self.servoblaster.write('{}={}\n'.format(servo_id, val))
 
-		# sleep(0.5)
-
 		self.servoblaster.flush()
 
 
